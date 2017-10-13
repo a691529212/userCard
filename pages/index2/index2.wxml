@@ -1,0 +1,27 @@
+<!--pages/index2/index2.wxml-->
+
+<!--view 类似于div  -->
+<view class = "test">
+<!--bindtap 类似于onclick  -->
+  <view bindtap="test_bind" class="test_view">
+   <image wx:if="{{mypic == null}}" class='userinfo-avatar' 
+   src = "{{userInfo.avatarUrl}}" background-size = "cover"></image>
+   <image wx:else src="{{mypic}}" background-size="cover"></image>
+  </view>
+  <button bindtap="myEventHandle"> choose image</button>
+  <view class="test_date">
+  <!--条件判断  -->
+  <!--{{date}} 就是js 中的data  -->
+    <text wx:if = "{{date != 'this_is_a_date'}}" class="text_data"> {{date}}</text>
+    <text wx:else>这是else里面的数据</text>
+  </view>
+  <!--遍历数据  -->
+  <view wx:for ="{{resultDate}}" wx:for-index = "id"
+  wx:for-item = "itemName">
+  {{itemName.id}}-{{itemName.name}}-{{itemName.score}}
+  </view>
+</view>
+
+<!--image 是图片
+    view  相当于 div
+    text 是文本  -->

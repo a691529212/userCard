@@ -1,0 +1,8 @@
+<!--pages/table/card/card.wxml-->
+<text>pages/table/card/card.wxml</text>
+<view class='container'>
+  <include src = "../common/userifo.wxml"></include>
+  <view class="myBtn">
+        <button type="primary" bindtap="goIndex3">进入index3</button>
+    </view>   
+</view>

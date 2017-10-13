@@ -1,0 +1,47 @@
+{
+  "tabBar": {
+    "selectedColor": "#00c700",
+    "list": [
+      {
+        "pagePath": "pages/table/card/card",
+        "text": "名片",
+        "iconPath": "pages/mipmap/card_u.png",
+        "selectedIconPath": "pages/mipmap/card_s.png"
+      },
+      {
+        "pagePath": "pages/table/link/link",
+        "text": "通讯录",
+        "iconPath": "pages/mipmap/link_u.png",
+        "selectedIconPath": "pages/mipmap/link_s.png"
+      },
+      {
+        "pagePath": "pages/table/date/date",
+        "text": "日程",
+        "iconPath": "pages/mipmap/date_u.png",
+        "selectedIconPath": "pages/mipmap/date_s.png"
+      },
+      {
+        "pagePath": "pages/table/user/user",
+        "text": "我",
+        "iconPath": "pages/mipmap/my_u.png",
+        "selectedIconPath": "pages/mipmap/my_s.png"
+      }
+    ]
+  },
+  "pages": [
+    "pages/table/card/card",
+    "pages/table/link/link",
+    "pages/table/date/date",
+    "pages/table/user/user",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index2/index2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序测试",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,18 @@
+/* pages/table/user/user.wxss */
+.container{
+  background: #f7f7fa;
+
+  width: 100%;
+  height: max-content;
+
+}
+
+/*头布局 */
+.top_layout{
+  position: absolute;
+  background: #ffffff;
+  left: 0px;
+  top: 0px;
+  
+}
+
